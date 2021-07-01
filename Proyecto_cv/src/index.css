@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 1100px;
+  height: 100%;
+ margin: 30px auto;
+}
+
+
+h3{
+  margin: 10px 0;
+  font-weight: 400;
+  text-align: center;
+  
+}
+hr{
+  border-bottom: 2px solid  #F58105;
+  width: 50%;
+  margin: 5px auto;
+  
+}
+
+p{
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+#informacion{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px){
+  #informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+}

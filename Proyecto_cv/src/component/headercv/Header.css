@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.container{
+    background-image: url(fondo4.png);
+    padding-bottom: 20px;
+}
+header{
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    min-height: 300px;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding: 65px 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    color: #000;
+    align-items: center;
+
+}
+
+.texto{
+    flex-basis: 60%;
+    text-align: center;
+    line-height: 1;
+    font-family: 'Handlee', cursive;
+}
+
+.foto{
+    flex-basis: 45%;
+    text-align: center;
+    padding: 20px;
+    
+ 
+}
+
+.foto img{
+    max-width: 201px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 3px 8px #08046A;
+}
+
+.texto h1{
+    font-weight:5500;
+    font-size: 40px;
+    color: #08046A;
+    text-shadow: 1px 1px 5px #F58105;
+}
+
+
+.texto h3{
+    font-weight:500;
+     color: #08046A;
+     text-shadow: 1px 1px 5px #F58105;
+   
+}
+
+@media screen and (min-width:768px){
+    header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+  }

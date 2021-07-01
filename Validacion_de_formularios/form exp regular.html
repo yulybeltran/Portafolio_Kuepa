@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilosf.css">
+  <title>Validacion de formulario js</title>
+</head>
+<body>
+
+
+
+<div id="formu">
+  
+<form class="caja" id="frmvalidacion" novalidate>
+
+<h1> Formulario registro </h1>
+
+<label for="tipoid"> Tipo de identificación:</label>
+<select  id="tipodoc">    
+       <option value="0" selected="">Seleccione un Tipo de Documento</option>
+       <option value="NUIP">Número único de identificación personal (NUIP)</option>
+       <option value="Tarjeta de Identidad">Tarjeta de Identidad (TI)</option>
+       <option value="Cédula de Ciudadania">Cédula de Ciudadania</option>
+       <option value="Cédula de Extranjeria">Cédula de Extranjeria</option>
+</select>
+
+ <div id="camponoDoc"> 
+<label for="identificacion">Número de identificación:</label>
+<input type="text" id="identificacion" name="noDoc" id="noDoc" class="" >
+<div class="feedback"></div>
+</div>
+<div id="campoApellido">
+<label for="apellido">Apellidos:</label>
+<input type="text" id="apellido" name="apellido"  class="" >
+<div class="feedback"></div>
+
+</div>
+<div id="campoNombre">
+<label for="nombres">Nombres:</label>
+<input type="text" id="nombre" name="nombre"  class="" >
+<div class="feedback"></div>
+
+</div>
+
+<div id="campoNumero">
+<label for="telefono">Número telefónico de contacto:</label>
+<input type="text" id="telefono" name="telefono" class="" >
+<div class="feedback"></div>
+
+</div>
+<div id="campoCorreo">
+<label for="correo">Correo electrónico de contacto</label>
+<input type="text" id="correo" name="correo" class="">
+<div class="feedback"></div>
+
+
+
+</div>
+<div id="campoDireccion">
+<label for="correo">Dirección</label>
+<input type="text" id="direccion" name="direccion" class="">
+<div class="feedback"></div>
+
+</div>
+<input type="submit" value="Enviar" />
+
+<input type="reset" value="Restablecer" />
+</div>
+</form>
+</div>
+<script type="text/javascript" src="js/exp.js"></script>
+</body>
+</html>

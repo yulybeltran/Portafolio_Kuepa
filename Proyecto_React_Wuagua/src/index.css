@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face{
+	font-family:"chewy"; 
+	src:url("./components/fonts/Chewy.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+*{
+	margin: 0;
+	border:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+
+
+

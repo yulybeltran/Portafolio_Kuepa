@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body{
+	background-image: url("../img/fondo2.jpg");
+	background-size: cover;
+}
+
+h1{
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+.card{
+	text-align: center;
+  margin: 100px auto;
+  background: transparent;
+  border: none;
+}
+
+
+#formu{
+   background-image: linear-gradient(to right, rgba(228,100,100,0.5), rgba(196,196,196,0.5));
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 4px 4px 5px #000000;
+    margin: 20px auto;
+    padding: 50px;
+}
+ label{
+    width:40%;
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+ input[type=text], input[type=number], input[type=password], input[type=email],select,textarea{
+    width: 45%;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 8px 0; 
+    resize: none;
+}
+
+
+ input[type=text]:focus, input[type=number]:focus, input[type=email]:focus,input[type=password]:focus,select:focus,textarea:focus{
+box-shadow: 3px 3px 5px #FF0000;
+outline-style:  none;
+}
+
+ input[type=submit]{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid pink;
+    color: #000000;
+    font-weight: bold;
+}
+
+ input[type=submit]:hover{
+    background: linear-gradient(#0a0a0c,#000000);
+    box-shadow: 0 0 20px #000000;
+    color: #FFFFFF;
+}
+
+ input[type=reset]{
+    width: 140px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid pink;
+    color: #000000;
+    font-weight: bold;
+}
+
+ input[type=reset]:hover{
+    
+    background: linear-gradient(#0a0a0c,#000000);
+    color: #FFFFFF;
+}
+
+
+.feedback{
+    max-width: 100%
+    width: 100%;
+    background-color:rgba(255,255,255,0,5);
+    padding: 5px;
+    color: #000000;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.success{
+    border: 2px solid lime;
+}
+ 
+.error{
+    border: 2px solid red;
+}
+

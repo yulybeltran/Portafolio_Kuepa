@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+.container-fuid{
+	background: #F7E8F7 ;
+	justify-content: center;
+}
+
+.card{
+	background:#ffffff  ;
+		text-align: center;
+		margin:auto;
+		box-shadow: 2px 1px  5px #F90325 ; 
+		margin-top: 150px;
+		border-radius: 5px;
+		font-weight: bold;
+		font-family: 'Handlee', cursive;
+		opacity: 5;
+
+}
+
+h5{
+	font-weight: bold;
+		font-family: 'Handlee', cursive;
+
+}
+
+input[type=text], input[type=number], input[type=password], input[type=email],select,textarea{
+    width: 90%;
+    vertical-align: middle;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 8px 0; 
+    resize: none;
+}
+
+
+ input[type=text]:focus, input[type=number]:focus, input[type=email]:focus,input[type=password]:focus,select:focus,textarea:focus{
+
+outline: none;
+}
+
+ input[type=submit]{
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  
+    color: #000000;
+    font-weight: bold;
+}
+
+ input[type=submit]:hover{
+   
+   
+    color: #FFFFFF;
+}
+
+ input[type=reset]{
+    width: 140px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  
+    color: #000000;
+    font-weight: bold;
+}
+
+ input[type=reset]:hover{
+    
+    color: #FFFFFF;
+}
+
+
+.btn{
+	width: 160px;
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #F75686   ;
+	color: #000000;
+	background:#F4E2E4 ;
+	height: 40px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: 'Handlee', cursive;
+	font-weight: bold;
+}
+.btn:hover{
+	background:#F4E2E4;
+	border: 1px solid #EAEAEA ;
+	color: #F71B5E;
+	transition: background-color 2s;
+	}
+
+	.btn:active{
+
+	background-color: #F4E2E4;
+	transition-visibility:  none;
+	box-shadow: transparent;
+
+	}
+
+
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem pink;
+  border: 1px solid pink;
+}
+
+
+
+.btn {
+	transition-visibility:  none;
+	box-shadow: none;
+
+}
+
+
+
+.btn :visited{
+color: #000000;	
+
+}
+
+.btn :hover{
+	color:#F71B5E ;
+	transition: background-color 2s;
+
+}
+
+
+
+
+#caja1{
+	background:#F7E8F7 ;
+	justify-content: center;
+	
+}
+#caja1 img{
+	width: 210px;
+	margin-top: 100px;
+}
+
+#caja2{
+	min-height: 600px;
+	text-align: right;
+	
+}
+
+.modal-header{
+	background: #F71B5E ;
+}
+
+.modal-body{
+	background: ;
+	font-family: 'Handlee', cursive;
+	font-weight: bold;
+}
+
+.modal-footer{
+	background: #F71B5E ;
+}
+
+
+
+.feedback{
+    max-width: 100%
+    width: 100%;
+    background-color:rgba(255,255,255,0,5);
+    padding: 5px;
+    color: #000000;
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.success{
+    border: 2px solid lime;
+}
+ 
+.error{
+    border: 2px solid red;
+}
+

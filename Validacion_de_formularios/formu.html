@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilosf.css">
+  <title>Validacion de formulario js</title>
+</head>
+<body>
+
+
+
+<div id="formu">
+  
+<form class="caja" id="frmvalidacion" novalidate  name="formulario">
+
+<h1> Formulario registro </h1>
+
+<div id="campoCorreo">
+<label for="correo">Correo electrónico</label>
+<input type="text" id="correo" name="correo" class="">
+<div class="feedback"></div>
+</div>
+
+ 
+<div id="campoNumero">
+<label for="telefono">Número telefónico de contacto:</label>
+<input type="text" id="telefono" name="telefono" class="" >
+<div class="feedback"></div>
+</div>
+<div id="csol">
+<label> Selecciona una solicitud</label>
+<select  id="solicitud" name="solicitud">    
+       <option value="0" selected=""></option>
+       <option value="1">Queja</option>
+       <option value="2">Reclamo</option>
+       <option value="3">Pregunta</option>   
+</select>
+</div>
+
+<div id="ctex">
+<label for="descripcion"  >Describa su solicitud</label>
+<textarea id="descripcion" rows="5"></textarea>
+<div class="feedback"></div>
+</div>
+
+<input type="submit" value="Enviar"/>
+
+</form>
+</div>
+
+<script type="text/javascript" src="js/formu.js"></script>
+</body>
+</html>

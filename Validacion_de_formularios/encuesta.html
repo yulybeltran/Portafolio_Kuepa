@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/estilosf.css">
+  <title>Encuesta</title>
+</head>
+<body>
+
+
+
+<div id="formu">
+  
+<form class="caja" id="frmvalidacion" novalidate  name="formulario">
+
+<h1> Encuesta de Postres </h1>
+
+
+<div id="campoGenero">
+<label for="genero" id="generos">Género</label>
+<input type="radio" name="genero" id="genero">Femenino
+<input type="radio" name="genero" id="genero">Masculino
+<div class="feedback"></div>
+</div>
+
+<div id="camposn">
+<label for="postre" id="postres">Le gustan los postres</label>
+<input type="radio" name="postre" id="postre">Si
+<input type="radio" name="postre" id="postre">No
+<div class="feedback"></div>
+</div>
+
+
+<div id="frecuencia">
+<label>Con que frecuencia consume postres</label>
+<select  id="solicitud" name="solicitud">    
+       <option value="0" selected=""></option>
+       <option value="1">Todos los días</option>
+       <option value="2">Fines de semana </option>
+       <option value="3">Fechas especiales</option>
+       <option value="4">Exporadicamente</option> 
+       <option value="5">Nunca</option>  
+</select>   
+
+</div>
+<div id="campoSabor">
+<label for="correo">Cual es tu sabor de postre favorito</label>
+<input type="text" id="sabor" name="sabor" class="">
+<div class="feedback"></div>
+</div>
+
+<label>Donde sueles comprar los postres</label>
+<select  id="donde" name="donde">    
+       <option value="0" selected=""></option>
+       <option value="1">Panaderias</option>
+       <option value="2">Pasteleria</option>
+       <option value="3">Cenros comerciales</option>   
+</select>   
+
+<p>Gracias por participar en esta encuesta</p>
+
+<input type="submit" value="Enviar"/>
+
+</form>
+</div>
+</div>
+<script type="text/javascript" src="js/encuesta.js"></script>
+</body>
+</html>

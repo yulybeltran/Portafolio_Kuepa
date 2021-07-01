@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+
+@font-face{
+	font-family:"Comic";
+	src:url("../font/Comic Boys.ttf")format("truetype");
+	font-style: normal;
+	font-weight:normal;
+}
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	text-align: center;
+	color:#F3EAEA;
+	font-family: "Comic";
+	font-size: 35px;
+	color:#F3EAEA;
+	
+}
+
+h1,h2,h3{
+   color:#E3eaea;
+   font-family: "Comic";
+   font-size: 70px;
+   text-align: center;
+   padding:20px;
+	
+}
+
+ #boton{
+ 	max-height: 80px;
+ 	max-width: 250px;
+ 	font-size: 36px;
+ 	padding: 20px;
+
+ 	
+}
+
+ #i{
+ 	justify-content: space-between;
+ 	width: 100px;
+ 	margin: 50px;
+ 	
+}
+ 
+ .btn-primary{
+ 	margin:20PX 0px;
+ 	font-family: 'Spicy Rice', cursive;
+ 	font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(#7704E9, #242121);
+    border: none;
+    min-width: 8rem;
+    min-height: 4rem;
+	height: 100%;
+	line-height: 40px;
+	padding-top: 10px;
+
+ }
+
+ #caja1 img{
+ 	width: 80px;
+ 	padding: 60px 0px 60px 0px;
+ 	margin: 20px;
+}
+.card {
+ 	
+ 	text-align: center;
+ 	background: transparent;
+ 	border: none;
+
+}
+
+.caja3{
+	margin: auto;
+	text-align: center;
+	padding: 30px;
+
+}
+#caja2{
+	min-height: 650px;
+	height: 100%;
+	padding: 30px;
+
+}
+
+img{
+
+	transform:scale(1.2);
+    -ms-transform:scale(1.2);
+
+}
+
+img:hover{
+	transition: 3s;
+	 transform:scale(1);
+     -ms-transform:scale(1);
+
+}	
+	
+.card .button{
+	color: #7704E9;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	background-color: rgba(243,243,243,0.5);
+	align-content:center;
+	border-radius:10px;
+	font-size: 36px;
+	line-height: 30px;
+	padding:5px;
+	margin: 15px 0px;
+	
+}
+	
+.card{
+	margin: auto;
+ }
+
+#car2{
+ 	background-color: rgba(119,4,233,0.3);
+ 	opacity: 3;
+ 	color:#F3EAEA;
+ 	margin: auto;
+ 	padding: 20px;
+ 	border-radius: 10px;
+ }
+
+ #car3{
+ 	margin:30px;
+ 	background-color: rgba(119,4,233,0.5);
+ 	opacity: 5;
+ 	margin-left: 30px;
+ 	padding-left: 30px;
+ }
+
+ select{
+	background-color:#F3EAEA;
+	min-width: 10rem;
+    min-height: 2.5rem;
+	border-radius: 5px;
+	margin:30px 80px ;
+	box-shadow: 4px 4px 3px #000000;
+		
+}
+
+.card1{
+	background-color: rgba(228,100,100,0.5);
+	text-align: center;
+	margin-left: 350px;
+    margin-top: 100px;
+
+}
+
+#respuesta{
+	background-image: linear-gradient(to right, rgba(228,100,100,0.5), rgba(196,196,196,0.5));
+	border-radius: 15px;
+	color: #F3EAEA;
+	line-height: 30px;
+	padding: 20px;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 3rem;
+	padding: 20px;
+	margin: auto;	
+
+}
+
+#respuesta1{
+	background-image: linear-gradient(to right, rgba(228,100,100,0.5), rgba(196,196,196,0.5));
+	border-radius: 15px;
+	color: #F3EAEA;
+	line-height:30px;
+	padding: 20px;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 4rem;
+	margin: auto;
+	
+}
+
+
+.modal{
+	background-image: url(../imagenes/jesse.jpg );
+	background-size: cover;
+	text-align: center;
+	border-radius: 10px;
+		
+}
+
+ .modal-header{
+ 	background-image: linear-gradient(#7704E9, #242121);
+	opacity: 5;
+		
+	
+}
+
+.modal-body{
+	background-image: url(../imagenes/pau.jpg );
+	background-size: cover
+}
+
+
